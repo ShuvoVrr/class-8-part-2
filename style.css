@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    font-size: 20px;
+}
+.row1{
+    width: 100%;
+    background-color: blue;
+}
+.row{
+    margin-bottom: 10px;
+}
+.row::before,
+.row::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.col-1-of-12{
+    width: 7.416666666666667%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+.col-1-of-12:last-child{
+    margin-right: 0;
+}
+
+.row2{
+    width: 100%;
+    background-color: red;
+}
+.col-2-of-12{
+    width: 15.83333333333333%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-2-of-12:last-child{
+    margin-right: 0;
+}
+
+
+.row3{
+    width: 100%;
+    background-color: yellow;
+}
+.col-3-of-12{
+    width: 24.25%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-3-of-12:last-child{
+    margin-right: 0;
+}
+
+
+.row4{
+    width: 100%;
+    background-color: blue;
+}
+.col-4-of-12{
+    width: 32.66666666666667%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-4-of-12:last-child{
+    margin-right: 0;
+}
+
+.row5{
+    width: 100%;
+    background-color: red;
+}
+.col-5-of-12{
+    width: 41.08333333333334%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-5-of-12:last-child{
+    margin-right: 0;
+}
+
+
+.row6{
+    width: 100%;
+    background-color: yellow;
+}
+.col-6-of-12{
+    width: 49.5%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-6-of-12:last-child{
+    margin-right: 0;
+}
+
+
+.row7{
+    width: 100%;
+    background-color: blue;
+}
+.col-7-of-12{
+    width: 57.9166666666667%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-7-of-12:last-child{
+    margin-right: 0;
+}
+
+.row8{
+    width: 100%;
+    background-color: red;
+}
+.col-8-of-12{
+    width: 66.333333333%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-8-of-12:last-child{
+    margin-right: 0;
+}
+
+
+.row9{
+    width: 100%;
+    background-color: yellow;
+}
+.col-9-of-12{
+    width: 74.75%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-9-of-12:last-child{
+    margin-right: 0;
+}
+
+
+.row10{
+    width: 100%;
+    background-color: blue;
+}
+.col-10-of-12{
+    width: 83.16666666666667%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-10-of-12:last-child{
+    margin-right: 0;
+}
+
+
+
+.row11{
+    width: 100%;
+    background-color: red;
+}
+.col-11-of-12{
+    width: 91.58333333333333%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-11-of-12:last-child{
+    margin-right: 0;
+}
+
+.row12{
+    width: 100%;
+    background-color: yellow;
+}
+.col-12-of-12{
+    width: 100%;
+    height: 50px;
+    margin-right: 1%;
+    background-color: darkgray;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.col-12-of-12:last-child{
+    margin-right: 0;
+}
